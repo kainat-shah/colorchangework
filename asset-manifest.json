@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kainat-shah/colorchangework/static/css/main.649e3c4c.css",
+    "main.js": "/kainat-shah/colorchangework/static/js/main.7f6ad380.js",
+    "index.html": "/kainat-shah/colorchangework/index.html",
+    "main.649e3c4c.css.map": "/kainat-shah/colorchangework/static/css/main.649e3c4c.css.map",
+    "main.7f6ad380.js.map": "/kainat-shah/colorchangework/static/js/main.7f6ad380.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.649e3c4c.css",
+    "static/js/main.7f6ad380.js"
+  ]
+}
