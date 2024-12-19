@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    /* position: fixed; */
+    z-index: 222222;
+    width: 100%;
+    height: 90px;
+    background-color: #2b2620;
+    box-shadow: -1px 7px 16px 1px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 7px 16px 1px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 7px 16px 1px rgba(0,0,0,0.63);
+}
+
+.navbar{
+    width: 100%;
+    height: 87px;
+    background-color: #2b2620;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #2b2620;
+}
+
+.navbar .logo img{
+    height: 143px;
+    width: 173px;
+    margin-bottom: -9px;
+   
+}
+
+.menubar{
+    margin-left: 247px;
+}
+
+li{
+    list-style: none;
+}
+
+li .anchor{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 22px;
+    padding: 33px 0;
+    border-bottom: 3px solid #2b2620;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+}
+
+li .anchor{
+    transition: all 0.5s;
+}
+
+li.active .anchor,
+
+li .anchor:hover{
+    border-bottom: 3px solid #0476BF;
+    color: #0476BF;
+    transition: all 0.5s;
+}
+
+li .anchor{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+li .anchor1{
+    margin: 0 20px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #0067a7;
+    border: 2px solid #0067a7;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+li .anchor1:hover{
+    transform: scale(1.15);
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
